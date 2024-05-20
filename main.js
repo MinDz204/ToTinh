@@ -98,6 +98,8 @@ function textGenerate() {
 $('#yes').click(function() {
     var audio = new Audio('tick.mp3');
     audio.play();
+    var audio2 = new Audio('sound.mp3');
+    audio2.play();
     Swal.fire({
         title: CONFIG.question,
         html: true,
