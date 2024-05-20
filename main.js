@@ -72,7 +72,10 @@ $('#no').click(() => {
     if (screen.width>=900)
         switchButton();
 })
-
+$('#btnIntro').click(() => {
+    var audio2 = new Audio('sound.mp3');
+    audio2.play();
+})
 // generate text in input
 function textGenerate() {
     var n = "";
